@@ -18,5 +18,7 @@ module.exports = function () {
 		console.log ('We\'re in Production Environment');
 	}
 
+	require ('../app/routes') (app);
+
 	return (app);
 };
